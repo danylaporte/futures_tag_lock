@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/danylaporte/futures_tag_lock.svg?branch=master)](https://travis-ci.org/danylaporte/futures_tag_lock)
+[![Build Status](https://travis-ci.org/danylaporte/futures_tag_locks.svg?branch=master)](https://travis-ci.org/danylaporte/futures_tag_locks)
 
 Futures / [VersionTag](https://github.com/danylaporte/version_tag) aware locks for Rust.
 
 ## Documentation
-[API Documentation](https://danylaporte.github.io/futures_tag_lock/futures_tag_lock)
+[API Documentation](https://danylaporte.github.io/futures_tag_locks/futures_tag_locks)
 
 ## License
 
