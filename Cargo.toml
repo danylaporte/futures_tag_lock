@@ -8,3 +8,6 @@ edition = "2018"
 futures = "0.1"
 futures-locks = "0.3"
 version_tag = { git = "https://github.com/danylaporte/version_tag.git" }
+
+[dev-dependencies]
+tokio = "0.1"

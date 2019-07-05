@@ -6,6 +6,12 @@ pub struct Untagged<T: ?Sized> {
     value: T,
 }
 
+impl<T> Untagged<T> {
+    pub fn new(value: T) -> Self {
+        Self { value }
+    }
+}
+
 impl<T: ?Sized> Deref for Untagged<T> {
     type Target = T;
 
