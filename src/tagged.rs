@@ -2,8 +2,9 @@ use crate::SetTag;
 use std::ops::{Deref, DerefMut};
 use version_tag::VersionTag;
 
-/// # Example
 /// A wrapper class that handle the version tag and the value.
+/// 
+/// # Example
 ///
 /// ```
 /// use futures::Future;
@@ -17,13 +18,14 @@ use version_tag::VersionTag;
 ///     // the tag should not have been changed here.
 ///     assert_eq!(old_tag, w.tag());
 ///     
-///     // gets the actual value in the lock
+///     // get the actual value in the lock
 ///     assert_eq!(10, **w);
 ///
 ///     // set the value in the lock
 ///     **w = 12;
 ///     
-///     // after the this write access, the tag will be
+///     // after this write access, the tagged value will be marked with
+///     // this new tag.
 ///     let _ = w.new_tag();
 /// })).unwrap();
 /// ```
